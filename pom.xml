@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.233.160.109:9000/</sonar.host.url>
+		<sonar.host.url>http://13.233.64.128:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>ganesh1</sonar.password> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>KK FUNDA Releases Nexus Repository</name>
-	      <url>http://13.200.235.31:8639/ganesh/repository/bsnl-release/</url>
+	      <url>http://65.1.147.188:8639/ganesh/repository/bsnl-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>KK FUNDA Snapshot Nexus Repository </name>
-	      <url>http://13.200.235.31:8639/ganesh/repository/bsnl-snapshot/</url>
+	      <url>http://65.1.147.188:8639/ganesh/repository/bsnl-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
